@@ -1,0 +1,100 @@
+.auth-form-container {
+    background-image: linear-gradient(79deg, #7439db, #b95fae 48%, #F7944D);
+    text-align: center;
+    display: flex;
+    min-height: 86vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.auth-form-containter, .login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+label {
+    text-align: left;
+    padding: 0.005rem 0;
+}
+
+input {
+    margin: 0.5rem 0;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logi {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.login-link {
+    color: white;
+    text-decoration: none;
+}
+
+.login-nav {
+    background-image: linear-gradient(79deg, #7439db, #b95fae 48%, #F7944D);
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 20px;
+    align-items: center;
+}
+
+.login-nav ul {
+    list-style-type: none;
+}
+
+.login-nav li {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.login-nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.login-nav a:hover {
+    color: #f2f2f2;
+}
+
+.login-nav li {
+    list-style: none;
+}
+
+.login-nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.form-title {
+    font-size: 30px;
+    margin-bottom: 35px;
+    font-family: "Arial", sans-serif;
+        /* Replace "Arial" with your desired font */
+}
+
+.lognav-logo {
+    width: 45px;
+    /* Set the desired width */
+    height: 45px;
+    /* Maintain aspect ratio */
+    padding-top: 0px;
+} 

@@ -1,0 +1,66 @@
+#nav-sum {
+    background-color: #8c5eff;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    border-radius: 10px;
+    height: 20px;
+    align-items: center;
+}
+
+.sum-page {
+    background-image: linear-gradient(to bottom, #b193ff, #ece0ff);
+    min-height: 86vh;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.title {
+    padding-left: 630px;
+    padding-top: 50px;
+    color: #333333;
+}
+
+.form-sum {
+    padding-top: 50px;
+    padding-left: 550px;
+    flex-direction: column;
+    color: #333333;
+    font-size: 20px;
+}
+
+#edit{
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 10px;
+}
+
+#save {
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 100px;
+}
+
+#add {
+    margin-left: 30px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 150px;
+}

@@ -1,0 +1,139 @@
+.navbar {
+    background-color: #8c5eff;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    border-radius: 10px;
+    height: 20px;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: center;
+    /* Horizontally center the menu items */
+    align-items: center;
+    /* Vertically center the menu items */
+}
+
+.navbar li {
+    display: inline-block;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    color: #404040;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a:hover {
+    color: #f2f2f2;
+}
+
+.navbar li {
+    list-style: none;
+    justify-content: center;
+}
+
+.navbar li a {
+    color: #404040;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navbar li a:hover {
+    color: #966efd;
+}
+
+.navbar-logo {
+    width: 45px;
+    /* Set the desired width */
+    height: 45px;
+    /* Maintain aspect ratio */
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-logo {
+  position: absolute; /* Position the logo element */
+  align-items: center;
+  left: 8px; /* Align to the left */
+  margin: 10px; /* Add some margin for spacing */
+  top: 18px;
+}
+
+/* Hero section styles */
+
+.hero {
+    /* background-image: linear-gradient(79deg, #7439db, #cda7fd 48%, #7E77E5); */
+    background-image: linear-gradient(to bottom, #bda3ff, #ece0ff);
+    text-align: center;
+    padding: 100px;
+    min-height: 60vh;
+    border-radius: 10px;
+
+}
+
+
+.hero h1 {
+    font-size: 40px;
+    padding-top: 10px;
+    color: #404040;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 1em;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+.custom-button {
+    color: #404040;
+    height: 40px;
+    width: 120px;
+}
+
+.custom-button {
+    height: 40px;
+    width: 100%;
+    background-color: #404040;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #A594E5;
+}
+
+.reg,
+.log {
+    width: 50%;
+    flex: 1;
+    padding: 50px;
+    background-color: transparent;
+    /* Set the opacity to 1 */
+    border-radius: 0px;
+    border: 1px solid #d4c3ff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.reg:hover,
+.log:hover {
+    background-color: #d2c0ff;
+    color: rgb(65, 65, 65);
+}
